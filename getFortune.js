@@ -1,4 +1,4 @@
-const fortunes = require('../fortunes.json')
+const fortunes = require('./fortunes.json')
 
 function getFortune() {
     const randomIndex = Math.floor(Math.random() * fortunes.length)
